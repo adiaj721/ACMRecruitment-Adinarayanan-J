@@ -1,0 +1,7 @@
+def is_binary_palindrome(n):
+    binary_str = bin(n)[2:]
+    return binary_str == binary_str[::-1] #check if its reverse is same
+numbers = [15, 28]
+for num in numbers:
+    result = is_binary_palindrome(num)
+    print(f"Number: {num}, Binary: {bin(num)[2:]}, Palindrome: {result}")
