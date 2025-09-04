@@ -1,0 +1,5 @@
+Enter elements of the array, separated by spaces: 1 2 3 4 5 6 7
+Enter number of steps to rotate (k): 3
+
+Original array: [1, 2, 3, 4, 5, 6, 7]
+Array after rotating by 3 steps: [5, 6, 7, 1, 2, 3, 4]
