@@ -1,0 +1,27 @@
+ENCODE RECRUIT WITH +3 MEANS
+
+R → U
+E → H
+C → F
+R → U
+U → X
+I → L
+T → W
+
+Decode "ZHOFRPH" with -3 MEANS 
+
+Z → W
+H → E
+O → L
+F → C
+R → O
+P → M
+H → E
+
+Manual Caesar Cipher Implementation
+
+Encode:
+RECRUIT (shift +3) → UHFUXLW
+
+Decode:
+ZHOFRPH (shift -3) → WELCOME
