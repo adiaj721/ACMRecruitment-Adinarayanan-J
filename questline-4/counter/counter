@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Counter App</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      display: flex;
+      height: 100vh;
+      justify-content: center;
+      align-items: center;
+      background: #f4f4f4;
+    }
+    .counter-container {
+      text-align: center;
+      background: #fff;
+      padding: 2rem;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+    h1 {
+      font-size: 3rem;
+      margin-bottom: 1.5rem;
+    }
+    button {
+      padding: 0.5rem 1.5rem;
+      margin: 0 10px;
+      font-size: 1.2rem;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background 0.3s ease;
+    }
+    .increment {
+      background: #28a745;
+      color: white;
+    }
+    .increment:hover {
+      background: #218838;
+    }
+    .decrement {
+      background: #dc3545;
+      color: white;
+    }
+    .decrement:hover {
+      background: #c82333;
+    }
+  </style>
+</head>
+<body>
+  <div class="counter-container">
+    <h1 id="counter">0</h1>
+    <button class="decrement" onclick="decrement()">- Decrement</button>
+    <button class="increment" onclick="increment()">+ Increment</button>
+  </div>
+
+  <script>
+    let count = 0;
+    const counterDisplay = document.getElementById("counter");
+
+    function increment() {
+      count++;
+      counterDisplay.textContent = count;
+    }
+
+    function decrement() {
+      count--;
+      counterDisplay.textContent = count;
+    }
+  </script>
+</body>
+</html>
