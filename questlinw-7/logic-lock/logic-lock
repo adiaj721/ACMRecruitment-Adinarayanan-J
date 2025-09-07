@@ -1,0 +1,27 @@
+import base64
+
+# Encrypted string
+data = "55485a6a64584a6c55474a6c63673d3d"
+
+# Step 1: Hex decode
+hex_decoded = bytes.fromhex(data).decode()
+print("Hex Decoded:", hex_decoded)
+
+# Step 2: Base64 decode
+base64_decoded = base64.b64decode(hex_decoded).decode()
+print("Base64 Decoded:", base64_decoded)
+
+# Step 3: ROT13 decode
+def rot13(s):
+    result = ""
+    for ch in s:
+        if 'a' <= ch <= 'z':
+            result += chr((ord(ch) - ord('a') + 13) % 26 + ord('a'))
+        elif 'A' <= ch <= 'Z':
+            result += chr((ord(ch) - ord('A') + 13) % 26 + ord('A'))
+        else:
+            result += ch
+    return result
+
+final_message = rot13(base64_decoded)
+print("Final Decoded Message:", final_message)
