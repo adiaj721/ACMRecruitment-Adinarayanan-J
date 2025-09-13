@@ -1,0 +1,33 @@
+ River Crossing Solution: Farmer, Wolf, Goat, and Cabbage
+
+Find a sequence of river crossings such that all items (wolf, goat, cabbage) and the farmer end up safely on the other side of the river.
+
+
+1. First Farmer should takes the goat across the river and leaves it on the right side.
+   - Left side: Wolf, Cabbage
+   - Right side: Goat
+
+2. He returns alone to the left side.
+   - Left side: Wolf, Cabbage
+   - Right side: Goat
+
+3. Then Farmer takes the wolf to right side and leaves the wolf on the right side, but takes the goat back with him to the left side..
+   - Left side: Cabbage
+   - Right side: wolf
+   - In the boat: Farmer and Goat
+
+4. HE leaves the goat on the left side and takes the cabbage across the river.
+   - Left side: Goat
+   - Right side: Wolf
+   - In the boat: Farmer and Cabbage
+
+6. Farmer leaves the cabbage with the wolf and returns alone to the left side.
+   - Left side: Goat
+   - Right side: Wolf, Cabbage
+
+7. Farmer takes the goat across the river one final time.
+   - Left side: no one
+   - Right side: Wolf, Cabbage
+   - In the boat: Farmer and Goat
+
+
