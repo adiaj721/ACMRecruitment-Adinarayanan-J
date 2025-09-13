@@ -1,0 +1,44 @@
+A (1 minute) and B (2 minutes) cross together.
+
+Time taken: 2 minutes (since they move at the pace of the slower person, B).
+
+A and B are on the far side, C and D are still on the starting side.
+
+A (1 minute) returns with the torch.
+
+Time taken: 1 minute.
+
+A is back on the starting side, and B is on the far side.
+
+C (7 minutes) and D (10 minutes) cross together.
+
+Time taken: 10 minutes (since they move at the pace of the slower person, D).
+
+C and D are on the far side, B is already there, and A is back on the starting side.
+
+B (2 minutes) returns with the torch.
+
+Time taken: 2 minutes.
+
+Now, B and A are on the starting side, and C and D are on the far side.
+
+A (1 minute) and B (2 minutes) cross together again.
+
+Time taken: 2 minutes (again, they move at the pace of the slower person, B).
+
+Now, everyone is on the far side.
+
+
+Total Time Taken:
+
+2 minutes (A and B cross)
+
+1 minute (A returns)
+
+10 minutes (C and D cross)
+
+2 minutes (B returns)
+
+2 minutes (A and B cross again)
+
+Total: 2 + 1 + 10 + 2 + 2 = 17 minutes.
