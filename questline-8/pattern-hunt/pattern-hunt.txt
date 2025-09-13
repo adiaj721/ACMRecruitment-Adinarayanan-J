@@ -1,0 +1,17 @@
+2, 6, 12, 20, ...
+Now Look at the differences between terms
+
+6−2=4
+12−6=6
+20−12=8
+
+The differences are: 4, 6, 8
+That is going up by 2 each time.
+
+So the next difference should be: 10, and  12
+
+adding these to the last number
+10+20 =30
+30+12=42
+
+Therefore final answer is 30,42 
