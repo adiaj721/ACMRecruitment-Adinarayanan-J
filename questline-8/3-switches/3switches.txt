@@ -1,0 +1,25 @@
+Turn on the first switch (Switch 1) and leave it on for several minutes. This will cause the bulb (if it's controlled by Switch 1) to warm up.
+
+After a few minutes, turn off Switch 1 and immediately turn on Switch 2.
+
+Enter the room with the bulb. Now, there are three possible outcomes:
+
+If the bulb is on, then Switch 2 controls the bulb.
+
+If the bulb is off but warm, then Switch 1 controls the bulb (because it was on for a while and heated up).
+
+If the bulb is off and cold, then Switch 3 controls the bulb (since it was never turned on).
+
+
+By turning Switch 1 on for a few minutes, you can tell if the bulb is warm, which indicates it was recently on.
+
+Switch 2 can be identified immediately if the bulb is still lit.
+
+If the bulb is both off and cold, it must be Switch 3 that controls it.
+
+
+If Bulb is on → Switch 2 controls it.
+
+Bulb is off but warm → Switch 1 controls it.
+
+Bulb is off and cold → Switch 3 controls it.
